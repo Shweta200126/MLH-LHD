@@ -1,0 +1,102 @@
+<html>
+<title>Ways to reduce food waste</title>
+<head>
+<style>
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'arial', sans-serif;
+  background: #42614a;
+  height: 100vh;
+  width: 100vw;
+}
+
+span {
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  transform: translate(-30%, -30%);
+  display: block;
+  color: #314937;
+  font-size: 100px;
+  letter-spacing: 8px;
+  cursor: pointer;
+}
+
+span::before {
+  content: "REDUCE FOOD WASTE";
+  position: absolute;
+  color: transparent;
+  background-image: repeating-linear-gradient(
+    45deg,
+    transparent 0,
+    transparent 2px,
+    white 2px,
+    white 4px
+  );
+  -webkit-background-clip: text;
+  top: 0px;
+  left: 0;
+  z-index: -1;
+  transition: 1s;
+}
+
+span::after {
+  content: "REDUCE FOOD WASTE";
+  position: absolute;
+  color: transparent;
+  background-image: repeating-linear-gradient(
+    135deg,
+    transparent 0,
+    transparent 2px,
+    white 2px,
+    white 4px
+  );
+  -webkit-background-clip: text;
+  top: 0px;
+  left: 0px;
+  transition: 1s;
+}
+
+span:hover:before {
+  top: 10px;
+  left: 10px;
+}
+
+span:hover:after {
+  top: -10px;
+  left: -10px;
+}
+ol {
+  display: block;
+  list-style-type: decimal;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 50;
+  margin-right: 50;
+  padding-left: 450px;
+}
+
+</style>
+</head>
+<body>
+<span>REDUCE FOOD WASTE</span>
+<br><br><p><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<font face = "WildWest" size = "5" color = "white">
+<center><h1>WAYS :</h1></center>
+<ol>
+  <li>Shop Smart and Realistically</li>
+  <li>Freeze to Make Them Last</li>
+  <li>Plan a Weekly Grocery List</li>
+  <li>Eat Local and Seasonal</li>
+  <li>Become a Zero-Waste Chef</li>
+  <li>Share the Surplus</li>
+  <li>Donate to a Food Bank</li>
+  <li>Feed Table Scraps to Animals</li>
+  <li>Compost Those Kitchen Scraps</li>
+</ol>
+<br>
+<center>
+<a href="https://www.thebetterindia.com/59579/waste-not-want-not-14-ways-you-can-reduce-food-waste-at-home/" target="_blank" style="color: #6C9D78">Reference Source</a>
+</body>
+</html>
